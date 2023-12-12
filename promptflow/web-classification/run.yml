@@ -7,8 +7,8 @@ runtime: automatic
 
 connections:
   classify_with_llm:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: manjinder-oai-conn
+    deployment_name: manjinder-gpt35-turbo
   summarize_text_content:
-    connection: Default_AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: manjinder-oai-conn
+    deployment_name: manjinder-gpt35-turbo
